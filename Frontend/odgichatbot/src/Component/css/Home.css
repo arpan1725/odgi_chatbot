@@ -1,0 +1,309 @@
+/* ======== Global Styles ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    
+    
+}
+
+body {
+    background-color: #9ca1a5 !important;
+  }
+  
+
+/* ======== Navigation Bar ======== */
+nav {
+    background-color: #560505; /* Deep Red */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Branding */
+nav h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #79bd0c; 
+}
+
+/* Apply Now Button */
+nav button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+nav button:hover {
+    background-color: #16A34A;
+}
+
+/* ======== Responsive Navigation ======== */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 10px;
+    }
+
+    nav h1 {
+        font-size: 1.5rem;
+    }
+
+    nav button {
+        margin-top: 10px;
+    }
+}
+
+/* ======== Bootstrap Carousel Styling ======== */
+.carousel {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/* ======== Responsive Carousel ======== */
+@media (max-width: 1024px) {
+    .carousel {
+        max-height: 350px;
+    }
+
+    .carousel-item img {
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        max-height: 250px;
+    }
+
+    .carousel-item img {
+        max-height: 250px;
+    }
+}
+
+/* ======== About Section ======== */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    color: #560505;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* ======== Video Section ======== */
+/* Main Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(234, 123, 45) !important; /* Force Background Color */
+    border: 2px solid #406cad;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+/* Paragraph Styling */
+.container p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #374151; 
+    line-height: 1.6;
+    
+}
+
+/* Highlighted Text */
+.container span {
+    font-weight: 600;
+    color: #031a65; 
+    
+}
+
+/* Video Container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    
+  
+        
+    
+}
+
+/* Video Thumbnail */
+.video-container img {
+    width: 100%;
+    max-width: 320px; 
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    
+}
+
+/* Video Thumbnail Hover Effect */
+.video-container img:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .video-container img {
+        max-width: 400px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .video-container img {
+        max-width: 500px; 
+    }
+}
+
+
+
+
+
+
+
+/* ======== Footer Section ======== */
+.footer {
+    background-color: #560505;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* ======== Responsive Design ======== */
+@media (max-width: 768px) {
+    .about-section h3 {
+        font-size: 1.6rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .video-thumbnail {
+        width: 250px;
+        height: 140px;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* About Section Styling */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e5adad; 
+}
+
+.about-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003366; 
+    margin-bottom: 15px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #008000; 
+    font-weight: bold;
+}
