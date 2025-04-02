@@ -62,7 +62,7 @@ nav ul li a:hover {
 
 /* Apply Now Button */
 nav button {
-    background-color: green;
+    background-color: rgb(228, 89, 19);
     color: white;
     padding: 10px 20px;
     border: none;

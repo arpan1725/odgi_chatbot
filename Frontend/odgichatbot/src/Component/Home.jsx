@@ -38,16 +38,16 @@ const Home = () => {
 
 
         <ul className="flex space-x-6">
-          <li><Link to="#" className="hover:underline">Home</Link></li>
-          <li><Link to="#" className="hover:underline">Admissions</Link></li>
-          <li><Link to="#" className="hover:underline">Academics</Link></li>
-          <li><Link to="#" className="hover:underline">Courses</Link></li>
-          <li><Link to="#" className="hover:underline">Training & Placements</Link></li>
-          <li><Link to="#" className="hover:underline">Campus Life</Link></li>
-          <li><Link to="#" className="hover:underline">Blog</Link></li>
-          <li><Link to="#" className="hover:underline">Contact</Link></li>
+          <li><Link to="https://omdayal.com/" className="hover:underline">Home</Link></li>
+          <li><Link to="https://omdayal.com/admissions/admission-procedure/" className="hover:underline">Admissions</Link></li>
+          <li><Link to="https://omdayal.com/academics/departments/" className="hover:underline">Academics</Link></li>
+          <li><Link to="https://omdayal.com/admissions/programme-offered/" className="hover:underline">Courses</Link></li>
+          <li><Link to="https://omdayal.com/training-placement/overview/" className="hover:underline">Training & Placements</Link></li>
+          <li><Link to="https://omdayal.com/infrastructure/" className="hover:underline">Campus Life</Link></li>
+          <li><Link to="https://omdayal.com/blog/" className="hover:underline">Blog</Link></li>
+          <li><Link to="https://omdayal.com/contact/" className="hover:underline">Contact</Link></li>
         </ul>
-        <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">Apply Now</button>
+        <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"><Link to= "https://omdayal.com/enquire-now/" classname="hover:underline">Apply Now</Link></button>
       </nav>
 
 
@@ -166,7 +166,7 @@ const Home = () => {
 </div>
 
 
-
+      
       <Footer />
     </div>
   );
